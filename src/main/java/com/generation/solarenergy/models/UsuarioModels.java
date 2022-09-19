@@ -17,6 +17,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 
+
 @Entity
 @Table(name = "tb_usuarios")
 public class UsuarioModels {
@@ -40,7 +41,7 @@ public class UsuarioModels {
 	@NotBlank(message = "O Atributo Senha é Obrigatório!")
 	@Size(min = 8, message = "A Senha deve ter no mínimo 8 caracteres")
 	private String senha;
-	
+
 	@NotBlank(message = "O Atributo CPF é Obrigatório!")
 	@Size(min = 8, message = "O CPF deve conter 15 caracteres")
 	private String cpf;
