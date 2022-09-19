@@ -10,8 +10,8 @@
 	<groupId>com.generation</groupId>
 	<artifactId>solarenergy</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>solar energy</name>
-	<description>Projeto integrador da Generation Brasil</description>
+	<name>Solar Energy</name>
+	<description>Projeto Integrador desenvolvido no bootcamp Pessoa Desenvolvedora Java</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
